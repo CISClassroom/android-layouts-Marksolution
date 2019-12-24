@@ -13,13 +13,6 @@
             android:inputType="textPersonName"
             android:text="Name"
             android:ems="10"
-            android:id="@+id/editText"/>
-    <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:inputType="textPersonName"
-            android:text="Name"
-            android:ems="10"
             android:id="@+id/editText4"/>
     <EditText
             android:layout_width="wrap_content"
@@ -28,5 +21,12 @@
             android:text="Name"
             android:ems="10"
             android:layout_above="@id/editText4"
-            android:id="@+id/editText5" android:layout_marginBottom="-169dp"/>
+            android:id="@+id/editText5" android:layout_marginBottom="-151dp"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:ems="10"
+            android:id="@+id/editText"/>
 </RelativeLayout>
