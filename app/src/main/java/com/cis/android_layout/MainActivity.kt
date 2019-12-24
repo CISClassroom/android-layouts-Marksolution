@@ -17,6 +17,14 @@ class MainActivity : AppCompatActivity() {
             val i = Intent(this, ConstranActivity::class.java)
             startActivity(i)
         }
+        button.setOnClickListener {
+            val i = Intent(this, LinearActivity::class.java)
+            startActivity(i)
+        }
+        button2.setOnClickListener {
+            val i = Intent(this, RelativeActivity::class.java)
+            startActivity(i)
+        }
 
     }
 }
